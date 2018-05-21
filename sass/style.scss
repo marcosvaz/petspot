@@ -1,5 +1,5 @@
-$theme-color: rgba(204, 16, 19, 1);
-$theme-color-hover: rgba(255, 16, 19, 1);
+$theme-color: #EE712B;
+$theme-color-hover: #DC4712;
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -7,10 +7,6 @@ body {
 
 *[class*="-theme"] {
   background-color: $theme-color;
-}
-
-*[class*="btn"] {
-  border-radius: 0;
 }
 
 .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
@@ -21,5 +17,12 @@ a {
   color: $theme-color;
   &:hover {
     color: $theme-color-hover;
+  }
+}
+
+.form-control {
+  color: #e3e3e3;
+  &:focus {
+    color: #e3e3e3;
   }
 }

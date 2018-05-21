@@ -1,18 +1,20 @@
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 *[class*="-theme"] {
-  background-color: #cc1013; }
-
-*[class*="btn"] {
-  border-radius: 0; }
+  background-color: #EE712B; }
 
 .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
-  background-color: #ff1013; }
+  background-color: #DC4712; }
 
 a {
-  color: #cc1013; }
+  color: #EE712B; }
   a:hover {
-    color: #ff1013; }
+    color: #DC4712; }
+
+.form-control {
+  color: #e3e3e3; }
+  .form-control:focus {
+    color: #e3e3e3; }
 
 /*# sourceMappingURL=style.css.map */
