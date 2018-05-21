@@ -45,7 +45,7 @@
 
     <!-- HEADER -->
     <div class="page-header header-filter">
-      <div class="page-header-image" style="background-image: url('img/company.jpg');"></div>
+      <div class="page-header-image" style="background-image: url('img/dog-happy.jpg');"></div>
       <div class="content-center">
         <div class="container">
           <div class="row">

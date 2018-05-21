@@ -45,19 +45,15 @@
 
     <!-- HEADER -->
     <div class="page-header header-filter">
-      <div class="page-header-image" style="background-image: url('img/company.jpg');"></div>
+      <div class="page-header-image" style="background-image: url('img/cat-scream.jpg');"></div>
       <div class="content-center">
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Mascot Match</h1>
+              <h1 class="title">FAQ</h1>
               <h4 class="description">
-                Não compre. Dê um match, é de graça.
+                Dúvidas frequentes sobre o projeto
               </h4>
-              <br>
-              <div class="buttons">
-                <a href="registrar.php" class="btn btn-theme btn-lg mr-3">Registre-se agora!</a>
-              </div>
             </div>
           </div>
         </div>
@@ -65,141 +61,83 @@
     </div>
     <!-- /HEADER -->
 
-    <!-- ABOUT -->
-    <div class="features-6">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-8 ml-auto mr-auto text-center">
-    				<h2 class="title">Working is a pleasure</h2>
-    				<h4 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information.</h4>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="info info-horizontal">
-    					<div class="icon icon-info"> <i class="now-ui-icons design-2_html5"></i>
-    					</div>
-    					<div class="description">
-    						<h5 class="info-title">For Developers</h5>
-    						<p>The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.</p>
-    					</div>
-    				</div>
-    				<div class="info info-horizontal">
-    					<div class="icon icon-danger"> <i class="now-ui-icons design_palette"></i>
-    					</div>
-    					<div class="description">
-    						<h4 class="info-title">For Designers</h4>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="phone-container">
-    					<img src="assets/img/iphone2.png">
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="info info-horizontal">
-    					<div class="icon icon-primary"> <i class="now-ui-icons design-2_ruler-pencil"></i>
-    					</div>
-    					<div class="description">
-    						<h5 class="info-title">Bootstrap Grid</h5>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    				<div class="info info-horizontal">
-    					<div class="icon icon-success"> <i class="now-ui-icons files_single-copy-04"></i>
-    					</div>
-    					<div class="description">
-    						<h4 class="info-title">Example Pages Included</h4>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
-    <!-- /ABOUT -->
-
-    <!-- PRICING -->
-    <div class="pricing-1 section-image" id="pricing-1" style="background-image: url('img/dog-cat.jpg')">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6 ml-auto mr-auto text-center">
-    				<h2 class="title">Pick the best plan for you</h2>
-    				<h4 class="description ">You have Free Unlimited Updates and Premium Support on each package.</h4>
-    				<div class="section-space"></div>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-md-3">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Bravo Pack</h6>
-    						<div class="icon icon-warning"> <i class="now-ui-icons media-1_button-power"></i>
-    						</div>
-    						<h3 class="card-title">$10</h3>
-    						<ul>
-    							<li>Complete documentation</li>
-    							<li>Working materials in Sketch</li>
-    						</ul> <a href="#pablo" class="btn btn-neutral btn-warning btn-round">Add to Cart</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-3">
-    				<div class="card card-pricing">
-    					<div class="card-body">
-    						<h6 class="category">Alpha Pack</h6>
-    						<div class="icon icon-primary"> <i class="now-ui-icons objects_diamond"></i>
-    						</div>
-    						<h3 class="card-title">$67</h3>
-    						<ul>
-    							<li>Working materials in EPS</li>
-    							<li>6 months access to the library</li>
-    						</ul> <a href="#pablo" class="btn btn-primary btn-round">Add to Cart</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-3">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Charlie Pack</h6>
-    						<div class="icon icon-success"> <i class="now-ui-icons media-2_sound-wave"></i>
-    						</div>
-    						<h3 class="card-title">$69</h3>
-    						<ul>
-    							<li>Working materials in PSD</li>
-    							<li>1 year access to the library</li>
-    						</ul> <a href="#pablo" class="btn btn-neutral btn-success btn-round">Add to Cart</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-3">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Extra Pack</h6>
-    						<div class="icon icon-danger"> <i class="now-ui-icons education_atom"></i>
-    						</div>
-    						<h3 class="card-title">$159</h3>
-    						<ul>
-    							<li>Complete documentation</li>
-    							<li>2GB cloud storage</li>
-    						</ul> <a href="#pablo" class="btn btn-neutral btn-danger btn-round">Add to Cart</a>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
-    <!-- /PRICING -->
-
     <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container">
-        <div class="copyright">
-          © 2018 <a href="index.php">Mascot Match</a>.
-        </div>
-      </div>
+    <footer class="footer footer-white footer-big">
+    	<div class="container">
+    		<div class="content">
+    			<div class="row">
+            <div class="col-md-3">
+    					<h5>Social</h5>
+    					<ul class="links-vertical">
+    						<li>
+                  <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+    						</li>
+    						<li>
+                  <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+    						</li>
+    						<li>
+                  <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2">
+    					<h5>Plataforma</h5>
+    					<ul class="links-vertical">
+    						<li>
+                  <a href="index.php">Página Inicial</a>
+    						</li>
+    						<li>
+                  <a href="registrar.php">Registre-se</a>
+    						</li>
+    						<li>
+                  <a href="login.php">Login</a>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2">
+    					<h5>Sobre</h5>
+    					<ul class="links-vertical">
+                <li>
+                  <a href="index.php#como-funciona">Como funciona</a>
+    						</li>
+                <li>
+                  <a href="mascothelper.php">MascotHelper</a>
+    						</li>
+    						<li>
+                  <a href="faq.php">FAQ</a>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2">
+    					<h5>Legal</h5>
+    					<ul class="links-vertical">
+                <li>
+                  <a href="#">Termos e Condições</a>
+                </li>
+                <li>
+                  <a href="#">Política de Privacidade</a>
+                </li>
+    					</ul>
+    				</div>
+    				<div class="col-md-3">
+    					<h5>Newsletter</h5>
+    					<p>Se inscreva e receba novidades sobre a plataforma!</p>
+    					<form class="form form-newsletter" method="" action="">
+    						<div class="form-group">
+    							<input type="email" class="form-control" placeholder="Email">
+    						</div>
+    						<button type="button" class="btn btn-primary btn-icon btn-round" name="button">	<i class="now-ui-icons ui-1_email-85"></i>
+    						</button>
+    					</form>
+    				</div>
+    			</div>
+    		</div>
+    		<hr>
+    		<div class="copyright pull-center">Copyright © 2018 -
+    			<script>
+    				document.write(new Date().getFullYear())
+    			</script> <a href="index.php">MascotMatch</a>.</div>
+    	</div>
     </footer>
     <!-- /FOOTER -->
 

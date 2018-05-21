@@ -126,7 +126,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 ml-auto mr-auto text-center">
-    				<h2 class="title">Escolha o melhor plano para você</h2>
+    				<h2 class="title">Escolha o melhor plano mensal para você</h2>
     				<div class="section-space"></div>
     			</div>
     		</div>
@@ -139,7 +139,9 @@
     						</div>
     						<h3 class="card-title">Gratuito</h3>
     						<ul>
-    							<li>Número limitado de matchs por dia</li>
+    							<li>x</li>
+                  <li>x</li>
+                  <li>x</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>
@@ -154,6 +156,7 @@
     						<ul>
     							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span>&trade;</a></li>
     							<li>Sem propagandas</li>
+                  <li>Compra pela plataforma</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>
@@ -167,7 +170,8 @@
     						<h3 class="card-title">R$29<small>,90</small></h3>
     						<ul>
     							<li>Descontos em compras nos parceiros</li>
-    							<li>Brindes simples</li>
+                  <li>x</li>
+    							<li>Brindes</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>
@@ -180,6 +184,8 @@
     						</div>
     						<h3 class="card-title">R$59<small>,90</small></h3>
     						<ul>
+                  <li>Frete grátis</li>
+                  <li>x</li>
     							<li>Brindes melhores</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
@@ -191,12 +197,82 @@
     <!-- /PRICING -->
 
     <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container">
-        <div class="copyright">
-          © 2018 <a href="index.php">Mascot Match</a>.
-        </div>
-      </div>
+    <footer class="footer footer-white footer-big">
+    	<div class="container">
+    		<div class="content">
+    			<div class="row">
+            <div class="col-md-3">
+    					<h5>Social</h5>
+    					<ul class="links-vertical">
+    						<li>
+                  <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+    						</li>
+    						<li>
+                  <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+    						</li>
+    						<li>
+                  <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2">
+    					<h5>Plataforma</h5>
+    					<ul class="links-vertical">
+    						<li>
+                  <a href="index.php">Página Inicial</a>
+    						</li>
+    						<li>
+                  <a href="registrar.php">Registre-se</a>
+    						</li>
+    						<li>
+                  <a href="login.php">Login</a>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2">
+    					<h5>Sobre</h5>
+    					<ul class="links-vertical">
+                <li>
+                  <a href="index.php#como-funciona">Como funciona</a>
+    						</li>
+                <li>
+                  <a href="mascothelper.php">MascotHelper</a>
+    						</li>
+    						<li>
+                  <a href="faq.php">FAQ</a>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2">
+    					<h5>Legal</h5>
+    					<ul class="links-vertical">
+                <li>
+                  <a href="#">Termos e Condições</a>
+                </li>
+                <li>
+                  <a href="#">Política de Privacidade</a>
+                </li>
+    					</ul>
+    				</div>
+    				<div class="col-md-3">
+    					<h5>Newsletter</h5>
+    					<p>Se inscreva e receba novidades sobre a plataforma!</p>
+    					<form class="form form-newsletter" method="" action="">
+    						<div class="form-group">
+    							<input type="email" class="form-control" placeholder="Email">
+    						</div>
+    						<button type="button" class="btn btn-primary btn-icon btn-round" name="button">	<i class="now-ui-icons ui-1_email-85"></i>
+    						</button>
+    					</form>
+    				</div>
+    			</div>
+    		</div>
+    		<hr>
+    		<div class="copyright pull-center">Copyright © 2018 -
+    			<script>
+    				document.write(new Date().getFullYear())
+    			</script> <a href="index.php">MascotMatch</a>.</div>
+    	</div>
     </footer>
     <!-- /FOOTER -->
 
