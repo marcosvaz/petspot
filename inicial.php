@@ -1,7 +1,3 @@
-<?php
-  include "includes/functions.php";
-  registrar();
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -49,30 +45,12 @@
 
     <!-- HEADER -->
     <div class="page-header header-filter">
-      <div class="page-header-image" style="background-image: url('img/cat-sleep.jpg');"></div>
+      <div class="page-header-image" style="background-image: url('img/company.jpg');"></div>
       <div class="content-center">
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Registre-se aqui</h1>
-              <h4 class="description">
-                <div class="col-sm-8 ml-auto mr-auto form-group">
-                  <form action="registrar.php" method="post">
-                  <br>
-                  <input class="form-control" type="text" name="nome" placeholder="Nome completo" style="background: transparent;" required>
-                  <br>
-                  <input class="form-control" type="email" name="email" placeholder="Email" style="background: transparent;" required>
-                  <br>
-                  <input class="form-control" type="password" name="senha" placeholder="Senha" style="background: transparent;" required>
-                  <br>
-                  <input class="form-control" type="password" name="confirmar-senha" placeholder="Confirme sua senha" style="background: transparent;" required>
-                </div>
-              </h4>
-              <br>
-              <div class="buttons">
-                <input type="submit" class="btn btn-theme btn-lg" name="registrar" value="Registrar">
-                </form>
-              </div>
+              <h1 class="title">Bem Vindo!</h1>
             </div>
           </div>
         </div>

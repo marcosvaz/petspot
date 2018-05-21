@@ -1,3 +1,7 @@
+<?php
+  include "includes/functions.php";
+  logar();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -53,15 +57,17 @@
               <h1 class="title">Faça login</h1>
               <h4 class="description">
                 <div class="col-sm-8 ml-auto mr-auto form-group">
+                  <form action="login.php" method="post">
                   <br>
-                  <input class="form-control" type="text" name="" placeholder="Usuário:" style="background: transparent;">
+                  <input class="form-control" type="email" name="email" placeholder="Email" style="background: transparent;" required>
                   <br>
-                  <input class="form-control" type="password" name="" placeholder="Senha:" style="background: transparent;">
+                  <input class="form-control" type="password" name="senha" placeholder="Senha" style="background: transparent;" required>
                 </div>
               </h4>
               <br>
               <div class="buttons">
-                <a href="" class="btn btn-theme btn-lg mr-3">Entrar</a>
+                <input type="submit" class="btn btn-theme btn-lg" name="logar" value="Entrar">
+                </form>
               </div>
             </div>
           </div>

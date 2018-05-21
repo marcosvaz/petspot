@@ -12,6 +12,9 @@ a {
   a:hover {
     color: #DC4712; }
 
+.card a:not(.btn):not(.nav-link):not([data-toggle='collapse']) {
+  border: none; }
+
 .form-control {
   color: #e3e3e3; }
   .form-control:focus {

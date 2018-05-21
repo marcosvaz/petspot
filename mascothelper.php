@@ -45,18 +45,18 @@
 
     <!-- HEADER -->
     <div class="page-header header-filter">
-      <div class="page-header-image" style="background-image: url('img/company.jpg');"></div>
+      <div class="page-header-image" style="background-image: url('img/dogs-playing.jpg');"></div>
       <div class="content-center">
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Mascot Match</h1>
+              <h1 class="title">MascotHelper&trade;</h1>
               <h4 class="description">
-                Não compre. Dê um match, é de graça.
+                Nossos animais ganham uma vida melhor, e você também ganha com isso!
               </h4>
               <br>
               <div class="buttons">
-                <a href="registrar.php" class="btn btn-theme btn-lg mr-3">Registre-se agora!</a>
+                <a href="" class="btn btn-theme btn-lg mr-3">Descubra como isso acontece</a>
               </div>
             </div>
           </div>
@@ -122,29 +122,16 @@
     <!-- /ABOUT -->
 
     <!-- PRICING -->
-    <div class="pricing-1 section-image" id="pricing-1" style="background-image: url('img/dog-cat.jpg')">
+    <div class="pricing-1 section-image" id="pricing-1" style="background-image: url('img/dog.jpg')">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 ml-auto mr-auto text-center">
-    				<h2 class="title">Escolha o melhor plano para você</h2>
+    				<h2 class="title">Todos os planos abaixo envolvem o selo <span class="text-primary">MascotHelper&trade;</span></h2>
     				<div class="section-space"></div>
     			</div>
     		</div>
     		<div class="row">
-    			<div class="col-md-3">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Gratuito</h6>
-    						<div class="icon icon-warning"> <i class="now-ui-icons media-1_button-power"></i>
-    						</div>
-    						<h3 class="card-title">Gratuito</h3>
-    						<ul>
-    							<li>Número limitado de matchs por dia</li>
-    						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-3">
+    			<div class="col-md-4">
     				<div class="card card-pricing">
     					<div class="card-body">
     						<h6 class="category">Básico</h6>
@@ -158,7 +145,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-md-3">
+    			<div class="col-md-4">
     				<div class="card card-pricing card-plain">
     					<div class="card-body">
     						<h6 class="category ">Intermediário</h6>
@@ -172,7 +159,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-md-3">
+    			<div class="col-md-4">
     				<div class="card card-pricing card-plain">
     					<div class="card-body">
     						<h6 class="category ">Avançado</h6>
@@ -181,6 +168,7 @@
     						<h3 class="card-title">R$59<small>,90</small></h3>
     						<ul>
     							<li>Brindes melhores</li>
+    							<li>x</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>
