@@ -1,0 +1,18 @@
+body {
+  font-family: "Montserrat", sans-serif; }
+
+*[class*="-theme"] {
+  background-color: #cc1013; }
+
+*[class*="btn"] {
+  border-radius: 0; }
+
+.btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
+  background-color: #ff1013; }
+
+a {
+  color: #cc1013; }
+  a:hover {
+    color: #ff1013; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+$theme-color: rgba(204, 16, 19, 1);
+$theme-color-hover: rgba(255, 16, 19, 1);
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+*[class*="-theme"] {
+  background-color: $theme-color;
+}
+
+*[class*="btn"] {
+  border-radius: 0;
+}
+
+.btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
+  background-color: $theme-color-hover;
+}
+
+a {
+  color: $theme-color;
+  &:hover {
+    color: $theme-color-hover;
+  }
+}
