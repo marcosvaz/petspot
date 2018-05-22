@@ -34,19 +34,19 @@
         <div class="navbar-translate">
           <a class="navbar-brand" href="inicial.php"> Mascot Match </a>
           <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-    					<span class="navbar-toggler-bar bar1"></span>
-    					<span class="navbar-toggler-bar bar2"></span>
-    					<span class="navbar-toggler-bar bar3"></span>
-    				</button>
+  					<span class="navbar-toggler-bar bar1"></span>
+  					<span class="navbar-toggler-bar bar2"></span>
+  					<span class="navbar-toggler-bar bar3"></span>
+  				</button>
         </div>
         <div class="collapse navbar-collapse justify-content-end" data-nav-image="#">
           <ul class="navbar-nav">
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dados" href=""><?php echo exibirNome(); ?></a>
               <ul class="dropdown-menu" aria-labelledby="dados">
-                <a class="dropdown-item" href="#">Meus Matches</a>
-                <a class="dropdown-item" href="#">Conversas</a>
+                <a class="dropdown-item" href="#plataforma/matches.php">Meus Matches</a>
+                <a class="dropdown-item" href="#plataforma/conversas.php">Conversas</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Meus Dados</a>
+                <a class="dropdown-item" href="#plataforma/meus-dados.php">Meus Dados</a>
               </ul>
             </li>
             <li class="nav-item"> <a class="nav-link" href="includes/logout.php">LOGOUT</a> </li>
