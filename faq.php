@@ -80,7 +80,7 @@
     <div class="col-md-8 ml-auto mr-auto">
     	<h3 class="title">Por que tem plano gratuito e pago?</h3>
     	<p>No plano gratuito, o usuário acessa as funções básicas da plataforma, já nos pagos, uma parte do valor que recebemos, nós dividimos com as ONG's parceiras, ajudando elas com as necessidades, além disso, nos planos pagos, nós oferecemos seções onde, por exemplo, o usuário pode comprar coisas que compraria em uma pet shop, pela plataforma, e dependendo do plano, até ter frete grátis e receber brindes.
-    		<br></p>
+    		<br><br></p>
     	<!-- <p class="blockquote blockquote-primary">“And thank you for turning my personal jean jacket into a couture piece.”
     		<br>
     		<br>

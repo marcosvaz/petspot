@@ -66,7 +66,7 @@
     <!-- /HEADER -->
 
     <!-- ABOUT -->
-    <div class="features-6">
+    <!-- <div class="features-6">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-8 ml-auto mr-auto text-center">
@@ -118,7 +118,7 @@
     			</div>
     		</div>
     	</div>
-    </div>
+    </div> -->
     <!-- /ABOUT -->
 
     <!-- PRICING -->
