@@ -66,59 +66,16 @@
     <!-- /HEADER -->
 
     <!-- ABOUT -->
-    <!-- <div class="features-6">
+    <div class="features-1" id="como-funciona">
     	<div class="container">
     		<div class="row">
-    			<div class="col-md-8 ml-auto mr-auto text-center">
-    				<h2 class="title">O que oferecemos</h2>
-    				<h4 class="description">Aqui é onde descrevemos as principais funções da plataforma.</h4>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="info info-horizontal">
-    					<div class="icon icon-info"> <i class="now-ui-icons design-2_html5"></i>
-    					</div>
-    					<div class="description">
-    						<h5 class="info-title">For Developers</h5>
-    						<p>The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.</p>
-    					</div>
-    				</div>
-    				<div class="info info-horizontal">
-    					<div class="icon icon-danger"> <i class="now-ui-icons design_palette"></i>
-    					</div>
-    					<div class="description">
-    						<h4 class="info-title">For Designers</h4>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="phone-container">
-    					<img src="assets/img/iphone2.png">
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="info info-horizontal">
-    					<div class="icon icon-primary"> <i class="now-ui-icons design-2_ruler-pencil"></i>
-    					</div>
-    					<div class="description">
-    						<h5 class="info-title">Bootstrap Grid</h5>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    				<div class="info info-horizontal">
-    					<div class="icon icon-success"> <i class="now-ui-icons files_single-copy-04"></i>
-    					</div>
-    					<div class="description">
-    						<h4 class="info-title">Example Pages Included</h4>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
+    			<div class="col-md-8 ml-auto mr-auto">
+    				<h2 class="title">Como funciona a plataforma</h2>
+    				<h4 class="description">O Mascot Match é uma plataforma de adoção de animais no modelo Tinder. Pela plataforma você escolhe dentre diversos animais disponibilizados pelas ONG's, assim você ganha um novo companheiro e a ONG ajuda mais animaiszinhos. A plataforma tem planos mensais também, pelos quais você consegue fazer compras pela plataforma, consegue descontos em petshops parceiras, frete grátis e até brindes!</h4>
     			</div>
     		</div>
     	</div>
-    </div> -->
+    </div>
     <!-- /ABOUT -->
 
     <!-- PRICING -->
@@ -131,18 +88,14 @@
     			</div>
     		</div>
     		<div class="row">
-    			<div class="col-md-4">
+    			<div class="col-md-4 mt-auto mb-auto">
     				<div class="card card-pricing card-plain">
     					<div class="card-body">
     						<h6 class="category ">Gratuito</h6>
     						<div class="icon icon-warning"> <i class="now-ui-icons media-1_button-power"></i>
     						</div>
     						<h3 class="card-title">Gratuito</h3>
-    						<ul>
-    							<li>x</li>
-                  <li>x</li>
-                  <li>x</li>
-    						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
+    						<a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>
     			</div>
@@ -154,7 +107,7 @@
     						</div>
     						<h3 class="card-title">R$19<small>,90</small></h3>
     						<ul>
-    							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span>&trade;</a></li>
+    							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span></a></li>
     							<li>Sem propagandas</li>
                   <li>Compra pela plataforma</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>

@@ -50,13 +50,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">MascotHelper&trade;</h1>
+              <h1 class="title">MascotHelper</h1>
               <h4 class="description">
                 Nossos animais ganham uma vida melhor, e você também ganha com isso!
               </h4>
               <br>
               <div class="buttons">
-                <a href="" class="btn btn-theme btn-lg mr-3">Descubra como isso acontece</a>
+                <a href="#como-funciona" class="btn btn-theme btn-lg mr-3">Descubra como isso acontece</a>
               </div>
             </div>
           </div>
@@ -66,54 +66,20 @@
     <!-- /HEADER -->
 
     <!-- ABOUT -->
-    <div class="features-6">
+    <div class="features-1" id="como-funciona">
     	<div class="container">
     		<div class="row">
-    			<div class="col-md-8 ml-auto mr-auto text-center">
-    				<h2 class="title">O que oferecemos</h2>
-    				<h4 class="description">Aqui é onde descrevemos as principais funções da plataforma.</h4>
+    			<div class="col-md-8 ml-auto mr-auto">
+    				<h2 class="title">Como funciona</h2>
+    				<h4 class="description">Com o Mascot Match você escolhe dentre diversos animais disponibilizados pelas ONG's, assim você ganha um novo companheiro e a ONG ajuda mais animaiszinhos. O <span class="text-danger">MascotHelper</span> é um selo que você ganha, por participar de um de nossos planos, esse selo demonstra que você é um ajudante dos animais e das ONG's, pois com o valor dos planos, nós doamos uma parte para as ONG's para judar a cuidar de outros animais.</h4>
     			</div>
     		</div>
     		<div class="row">
-    			<div class="col-md-4">
-    				<div class="info info-horizontal">
-    					<div class="icon icon-info"> <i class="now-ui-icons design-2_html5"></i>
+    			<div class="col-md-4 ml-auto mr-auto">
+    				<div class="info info-hover">
+    					<div class="icon icon-danger"> <i class="now-ui-icons business_chart-pie-36"></i>
     					</div>
-    					<div class="description">
-    						<h5 class="info-title">For Developers</h5>
-    						<p>The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.</p>
-    					</div>
-    				</div>
-    				<div class="info info-horizontal">
-    					<div class="icon icon-danger"> <i class="now-ui-icons design_palette"></i>
-    					</div>
-    					<div class="description">
-    						<h4 class="info-title">For Designers</h4>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="phone-container">
-    					<img src="assets/img/iphone2.png">
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="info info-horizontal">
-    					<div class="icon icon-primary"> <i class="now-ui-icons design-2_ruler-pencil"></i>
-    					</div>
-    					<div class="description">
-    						<h5 class="info-title">Bootstrap Grid</h5>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
-    				</div>
-    				<div class="info info-horizontal">
-    					<div class="icon icon-success"> <i class="now-ui-icons files_single-copy-04"></i>
-    					</div>
-    					<div class="description">
-    						<h4 class="info-title">Example Pages Included</h4>
-    						<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-    					</div>
+    					<h4 class="info-title">Selo MascotHelper</h4>
     				</div>
     			</div>
     		</div>
@@ -126,7 +92,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 ml-auto mr-auto text-center">
-    				<h2 class="title">Os planos abaixo envolvem o selo <span class="text-primary">MascotHelper&trade;</span></h2>
+    				<h2 class="title">Os planos abaixo envolvem o selo <span class="text-primary">MascotHelper</span></h2>
     				<div class="section-space"></div>
     			</div>
     		</div>
@@ -139,7 +105,7 @@
     						</div>
     						<h3 class="card-title">R$19<small>,90</small></h3>
     						<ul>
-    							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span>&trade;</a></li>
+    							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span></a></li>
     							<li>Sem propagandas</li>
                   <li>Compra pela plataforma</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>

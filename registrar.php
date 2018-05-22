@@ -1,5 +1,9 @@
 <?php
   include "includes/functions.php";
+  include "includes/validasessao.php";
+  if(valida()){
+    header('Location: inicial.php');
+  }
   registrar();
 ?>
 <!DOCTYPE html>
