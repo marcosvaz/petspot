@@ -126,49 +126,37 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 ml-auto mr-auto text-center">
-    				<h2 class="title">Todos os planos abaixo envolvem o selo <span class="text-primary">MascotHelper&trade;</span></h2>
+    				<h2 class="title">Os planos abaixo envolvem o selo <span class="text-primary">MascotHelper&trade;</span></h2>
     				<div class="section-space"></div>
     			</div>
     		</div>
     		<div class="row">
-    			<div class="col-md-4">
+          <div class="col-md-4 ml-auto">
     				<div class="card card-pricing">
     					<div class="card-body">
     						<h6 class="category">Básico</h6>
     						<div class="icon icon-primary"> <i class="now-ui-icons objects_diamond"></i>
     						</div>
-    						<h3 class="card-title">R$14<small>,90</small></h3>
+    						<h3 class="card-title">R$19<small>,90</small></h3>
     						<ul>
     							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span>&trade;</a></li>
     							<li>Sem propagandas</li>
+                  <li>Compra pela plataforma</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>
     			</div>
-    			<div class="col-md-4">
-    				<div class="card card-pricing card-plain">
+    			<div class="col-md-4 mr-auto">
+    				<div class="card card-pricing">
     					<div class="card-body">
     						<h6 class="category ">Intermediário</h6>
     						<div class="icon icon-success"> <i class="now-ui-icons media-2_sound-wave"></i>
     						</div>
-    						<h3 class="card-title">R$29<small>,90</small></h3>
+    						<h3 class="card-title">R$49<small>,90</small></h3>
     						<ul>
     							<li>Descontos em compras nos parceiros</li>
-    							<li>Brindes simples</li>
-    						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Avançado</h6>
-    						<div class="icon icon-danger"> <i class="now-ui-icons education_atom"></i>
-    						</div>
-    						<h3 class="card-title">R$59<small>,90</small></h3>
-    						<ul>
-    							<li>Brindes melhores</li>
-    							<li>x</li>
+                  <li>Frete grátis</li>
+    							<li>Brindes</li>
     						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
     					</div>
     				</div>

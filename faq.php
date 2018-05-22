@@ -61,8 +61,36 @@
     </div>
     <!-- /HEADER -->
 
+    <!-- FAQ -->
+    <div class="col-md-8 ml-auto mr-auto">
+    	<h3 class="title">O que é o Mascot Match&trade;?</h3>
+    	<p>Bom, o Mascot Match&trade; é uma plataforma para adoção de animais baseada no modelo Tinder. A plataforma serve para o usuário ver os animais disponíveis e escolher algum para ser seu companheiro.
+    		<br></p>
+    </div>
+    <div class="col-md-8 ml-auto mr-auto">
+    	<h3 class="title">Qual problema a plataforma pretende solucionar?</h3>
+    	<p>Existem mais de 30 milhões de animais abandonados pelas ruas das cidades brasileiras, sendo 20 milhões de cães e 10 milhões de gatos, como mostra a Organização Mundial da Saúde, em 2015. Além desses dados, ainda existem ONG's superlotadas com mais de 200 animais à espera de um novo lar. Para se ter uma ideia, em 2010, o continente inteiro da Oceania tinha cerca de 36 milhões de pessoas.
+    		<br></p>
+    	<!-- <p class="blockquote blockquote-primary">“And thank you for turning my personal jean jacket into a couture piece.”
+    		<br>
+    		<br>
+        <small>Kanye West, Producer.</small>
+    	</p> -->
+    </div>
+    <div class="col-md-8 ml-auto mr-auto">
+    	<h3 class="title">Por que tem plano gratuito e pago?</h3>
+    	<p>No plano gratuito, o usuário acessa as funções básicas da plataforma, já nos pagos, uma parte do valor que recebemos, nós dividimos com as ONG's parceiras, ajudando elas com as necessidades, além disso, nos planos pagos, nós oferecemos seções onde, por exemplo, o usuário pode comprar coisas que compraria em uma pet shop, pela plataforma, e dependendo do plano, até ter frete grátis e receber brindes.
+    		<br></p>
+    	<!-- <p class="blockquote blockquote-primary">“And thank you for turning my personal jean jacket into a couture piece.”
+    		<br>
+    		<br>
+        <small>Kanye West, Producer.</small>
+    	</p> -->
+    </div>
+    <!-- /FAQ -->
+
     <!-- FOOTER -->
-    <footer class="footer footer-white footer-big">
+    <footer class="footer footer-big" data-background-color="black">
     	<div class="container">
     		<div class="content">
     			<div class="row">
