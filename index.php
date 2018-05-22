@@ -14,7 +14,7 @@
   <meta name='rating' content='general' />
   <meta name='robots' content='noimageindex' />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/now-ui-kit.css">
   <link rel="stylesheet" href="css/style.css">
