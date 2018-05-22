@@ -152,13 +152,13 @@
     					<h5>Social</h5>
     					<ul class="links-vertical">
     						<li>
-                  <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+                  <a href="mascotmatch">Facebook</a>
     						</li>
     						<li>
-                  <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                  <a href="mascotmatch">Twitter</a>
     						</li>
     						<li>
-                  <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                  <a href="mascotmatch">Instagram</a>
     						</li>
     					</ul>
     				</div>
@@ -189,7 +189,7 @@
                   <a href="faq.php">FAQ</a>
     						</li>
                 <li>
-                  <a href="#parceria.php">Seja parceiro</a>
+                  <a href="parceria.php">Seja parceiro</a>
     						</li>
     					</ul>
     				</div>
@@ -197,10 +197,10 @@
     					<h5>Legal</h5>
     					<ul class="links-vertical">
                 <li>
-                  <a href="#">Termos e Condições</a>
+                  <a href="termosecondicoes.php">Termos e Condições</a>
                 </li>
                 <li>
-                  <a href="#">Política de Privacidade</a>
+                  <a href="politicadeprivacidade.php">Política de Privacidade</a>
                 </li>
     					</ul>
     				</div>
