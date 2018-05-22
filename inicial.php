@@ -3,6 +3,7 @@
   if(!valida()){
     header('Location: index.php');
   }
+  include "includes/functions.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -40,6 +41,14 @@
         </div>
         <div class="collapse navbar-collapse justify-content-end" data-nav-image="#">
           <ul class="navbar-nav">
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dados" href=""><?php echo exibirNome(); ?></a>
+              <ul class="dropdown-menu" aria-labelledby="dados">
+                <a class="dropdown-item" href="#">Meus Matches</a>
+                <a class="dropdown-item" href="#">Conversas</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Meus Dados</a>
+              </ul>
+            </li>
             <li class="nav-item"> <a class="nav-link" href="includes/logout.php">LOGOUT</a> </li>
           </ul>
         </div>

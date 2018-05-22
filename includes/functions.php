@@ -85,4 +85,51 @@
       }
     }
   }
+
+  function exibirNome(){
+    global $connection;
+    if(isset($_SESSION['email']) && isset($_SESSION['senha'])){
+      $email = $_SESSION['email'];
+      $senha = $_SESSION['senha'];
+
+      $query = "SELECT * FROM usuario WHERE email = '$email'";
+      $select_usuario = mysqli_query($connection, $query);
+      while ($row = mysqli_fetch_assoc($select_usuario)) {
+        $db_nome = $row['nome'];
+        $db_email = $row['email'];
+        $db_senha = $row['senha'];
+      }
+       if ((isset($db_nome) && isset($db_email) && isset($db_senha)) && ($email == $db_email && $senha == $db_senha)) {
+        return $db_nome;
+      } elseif ((isset($db_nome) && isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
+        header('Location: index.php');
+      } else {
+        header('Location: index.php');
+      }
+    }
+  }
+
+  function exibirEmail(){
+    global $connection;
+    if(isset($_SESSION['email']) && isset($_SESSION['senha'])){
+      $email = $_SESSION['email'];
+      $senha = $_SESSION['senha'];
+      $criptografada = criptografar($senha);
+
+      $query = "SELECT * FROM usuario WHERE email = '$email'";
+      $select_usuario = mysqli_query($connection, $query);
+      while ($row = mysqli_fetch_assoc($select_usuario)) {
+        $db_nome = $row['nome'];
+        $db_email = $row['email'];
+        $db_senha = $row['senha'];
+      }
+       if ((isset($db_email) && isset($db_senha)) && ($email == $db_email && $criptografada == $db_senha)) {
+        return $db_email;
+      } elseif ((isset($db_email) && isset($db_senha)) && ($email != $db_email || $criptografada != $db_senha)) {
+        header('Location: index.php');
+      } else {
+        header('Location: index.php');
+      }
+    }
+  }
 ?>
