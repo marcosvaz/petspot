@@ -74,6 +74,15 @@
     				<h4 class="description">O Mascot Match é uma plataforma de adoção de animais no modelo Tinder. Pela plataforma você escolhe dentre diversos animais disponibilizados pelas ONG's, assim você ganha um novo companheiro e a ONG ajuda mais animaiszinhos. A plataforma tem planos mensais também, pelos quais você consegue fazer compras pela plataforma, consegue descontos em petshops parceiras, frete grátis e até brindes!</h4>
     			</div>
     		</div>
+        <div class="row">
+    			<div class="col-md-4 ml-auto mr-auto">
+    				<div class="info info-hover">
+    					<div class="icon icon-info"> <i class="fa fa-paw"></i>
+    					</div>
+    					<h4 class="info-title">Você ganha um amigo, e o seu amigo ganha uma nova vida!</h4>
+    				</div>
+    			</div>
+    		</div>
     	</div>
     </div>
     <!-- /ABOUT -->
@@ -92,7 +101,7 @@
     				<div class="card card-pricing card-plain">
     					<div class="card-body">
     						<h6 class="category ">Gratuito</h6>
-    						<div class="icon icon-warning"> <i class="now-ui-icons media-1_button-power"></i>
+    						<div class="icon icon-warning"> <i class="now-ui-icons emoticons_satisfied"></i>
     						</div>
     						<h3 class="card-title">Gratuito</h3>
     						<a href="" class="btn btn-primary btn-round">Escolher</a>
@@ -103,7 +112,7 @@
     				<div class="card card-pricing">
     					<div class="card-body">
     						<h6 class="category">Básico</h6>
-    						<div class="icon icon-primary"> <i class="now-ui-icons objects_diamond"></i>
+    						<div class="icon icon-primary"> <i class="now-ui-icons files_box"></i>
     						</div>
     						<h3 class="card-title">R$19<small>,90</small></h3>
     						<ul>
@@ -118,7 +127,7 @@
     				<div class="card card-pricing card-plain">
     					<div class="card-body">
     						<h6 class="category ">Intermediário</h6>
-    						<div class="icon icon-success"> <i class="now-ui-icons media-2_sound-wave"></i>
+    						<div class="icon icon-success"> <i class="now-ui-icons objects_diamond"></i>
     						</div>
     						<h3 class="card-title">R$49<small>,90</small></h3>
     						<ul>

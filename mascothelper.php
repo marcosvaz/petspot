@@ -101,7 +101,7 @@
     				<div class="card card-pricing">
     					<div class="card-body">
     						<h6 class="category">Básico</h6>
-    						<div class="icon icon-primary"> <i class="now-ui-icons objects_diamond"></i>
+    						<div class="icon icon-primary"> <i class="now-ui-icons files_box"></i>
     						</div>
     						<h3 class="card-title">R$19<small>,90</small></h3>
     						<ul>
@@ -116,7 +116,7 @@
     				<div class="card card-pricing">
     					<div class="card-body">
     						<h6 class="category ">Intermediário</h6>
-    						<div class="icon icon-success"> <i class="now-ui-icons media-2_sound-wave"></i>
+    						<div class="icon icon-success"> <i class="now-ui-icons objects_diamond"></i>
     						</div>
     						<h3 class="card-title">R$49<small>,90</small></h3>
     						<ul>
