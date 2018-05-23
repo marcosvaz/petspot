@@ -52,7 +52,7 @@
     <!-- /MENU -->
 
     <!-- HEADER -->
-    <div class="page-header header-filter">
+    <div class="page-header header-filter section-image">
       <div class="page-header-image" style="background-image: url('img/cat-sleep.jpg');"></div>
       <div class="content-center">
         <div class="container">

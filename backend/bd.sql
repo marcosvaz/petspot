@@ -5,5 +5,6 @@ CREATE TABLE usuario (
   nome VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,
   senha CHAR(128) NOT NULL,
+  imagem VARCHAR(255) NOT NULL DEFAULT 'img/user.png',
   PRIMARY KEY (id)
 ); -- CRIA A TABELA DE USUÁRIOS

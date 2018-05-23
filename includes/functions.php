@@ -63,7 +63,7 @@
   {
     global $connection;
     if (isset($_POST['logar'])) {
-      $email = $_POST['email'];
+      $email = strtolower( trim( $_POST['email'] ) );
       $senha = $_POST['senha'];
       $criptografada = criptografar($senha);
 
@@ -86,6 +86,7 @@
     }
   }
 
+  // Função para exibir o nome do usuário
   function exibirNome(){
     global $connection;
     if(isset($_SESSION['email']) && isset($_SESSION['senha'])){
@@ -100,7 +101,8 @@
         $db_senha = $row['senha'];
       }
        if ((isset($db_nome) && isset($db_email) && isset($db_senha)) && ($email == $db_email && $senha == $db_senha)) {
-        return $db_nome;
+        $nome = explode( " ", $db_nome );
+        return $nome[0];
       } elseif ((isset($db_nome) && isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
         header('Location: index.php');
       } else {
@@ -109,12 +111,12 @@
     }
   }
 
+  // Função para exibir email do usuário
   function exibirEmail(){
     global $connection;
     if(isset($_SESSION['email']) && isset($_SESSION['senha'])){
       $email = $_SESSION['email'];
       $senha = $_SESSION['senha'];
-      $criptografada = criptografar($senha);
 
       $query = "SELECT * FROM usuario WHERE email = '$email'";
       $select_usuario = mysqli_query($connection, $query);
@@ -123,9 +125,35 @@
         $db_email = $row['email'];
         $db_senha = $row['senha'];
       }
-       if ((isset($db_email) && isset($db_senha)) && ($email == $db_email && $criptografada == $db_senha)) {
+       if ((isset($db_email) && isset($db_senha)) && ($email == $db_email && $senha == $db_senha)) {
         return $db_email;
-      } elseif ((isset($db_email) && isset($db_senha)) && ($email != $db_email || $criptografada != $db_senha)) {
+      } elseif ((isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
+        header('Location: index.php');
+      } else {
+        header('Location: index.php');
+      }
+    }
+  }
+
+  // Função para exibir foto do usuário
+  function exibirFoto()
+  {
+    global $connection;
+    if(isset($_SESSION['email']) && isset($_SESSION['senha'])){
+      $email = $_SESSION['email'];
+      $senha = $_SESSION['senha'];
+
+      $query = "SELECT * FROM usuario WHERE email = '$email'";
+      $select_usuario = mysqli_query($connection, $query);
+      while ($row = mysqli_fetch_assoc($select_usuario)) {
+        $db_nome = $row['nome'];
+        $db_email = $row['email'];
+        $db_senha = $row['senha'];
+        $db_foto = $row['imagem'];
+      }
+       if ((isset($db_foto) && isset($db_email) && isset($db_senha)) && ($email == $db_email && $senha == $db_senha)) {
+        return $db_foto;
+      } elseif ((isset($db_foto) && isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
         header('Location: index.php');
       } else {
         header('Location: index.php');

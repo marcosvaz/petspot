@@ -27,10 +27,10 @@
         <div class="navbar-translate">
           <a class="navbar-brand" href="index.php"> Mascot Match </a>
           <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-    					<span class="navbar-toggler-bar bar1"></span>
-    					<span class="navbar-toggler-bar bar2"></span>
-    					<span class="navbar-toggler-bar bar3"></span>
-    				</button>
+  					<span class="navbar-toggler-bar bar1"></span>
+  					<span class="navbar-toggler-bar bar2"></span>
+  					<span class="navbar-toggler-bar bar3"></span>
+  				</button>
         </div>
         <div class="collapse navbar-collapse justify-content-end" data-nav-image="#">
           <ul class="navbar-nav">
@@ -44,19 +44,18 @@
     <!-- /MENU -->
 
     <!-- HEADER -->
-    <div class="page-header header-filter">
-      <div class="page-header-image" style="background-image: url('img/dogs-playing.jpg');"></div>
+    <div class="page-header header-filter" style="background-color: rgba(0,0,0,0.3);">
+      <div class="page-header-image" style="background-image: url('img/cats-company.jpg');"></div>
       <div class="content-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">MascotHelper</h1>
+            <div class="col-md-8 ml-auto mr-auto">
+              <h1 class="title">Se torne um parceiro</h1>
               <h4 class="description">
-                Nossos animais ganham uma vida melhor, e você também ganha com isso!
               </h4>
               <br>
               <div class="buttons">
-                <a href="#como-funciona" class="btn btn-theme btn-lg mr-3">Descubra como isso acontece</a>
+                <a href="registrar.php" class="btn btn-theme btn-lg mr-3">Se inscreva agora!</a>
               </div>
             </div>
           </div>
@@ -70,16 +69,16 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-8 ml-auto mr-auto">
-    				<h2 class="title">Como funciona</h2>
-    				<h4 class="description">O <span class="text-danger">MascotHelper</span> é um selo que você ganha, por participar de um de nossos planos, esse selo demonstra que você é um ajudante dos animais e das ONG's, pois com o valor dos planos, nós doamos uma parte para as ONG's para judar a cuidar de outros animais.</h4>
+    				<h2 class="title">Como funciona a plataforma</h2>
+    				<h4 class="description">O Mascot Match é uma plataforma de adoção de animais no modelo Tinder. O usuário escolhe </h4>
     			</div>
     		</div>
-    		<div class="row">
+        <div class="row">
     			<div class="col-md-4 ml-auto mr-auto">
     				<div class="info info-hover">
-    					<div class="icon icon-danger"> <i class="fa fa-crown"></i>
+    					<div class="icon icon-info"> <i class="fa fa-paw"></i>
     					</div>
-    					<h4 class="info-title">Selo MascotHelper</h4>
+    					<h4 class="info-title">Você ganha um amigo, e o seu amigo ganha uma nova vida!</h4>
     				</div>
     			</div>
     		</div>
@@ -92,7 +91,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto text-center">
-            <h2 class="title">Os planos abaixo envolvem o selo MascotHelper</h2>
+            <h2 class="title">Escolha o melhor plano mensal para você</h2>
             <div class="section-space"></div>
           </div>
         </div>

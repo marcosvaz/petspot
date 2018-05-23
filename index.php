@@ -71,7 +71,7 @@
     		<div class="row">
     			<div class="col-md-8 ml-auto mr-auto">
     				<h2 class="title">Como funciona a plataforma</h2>
-    				<h4 class="description">O Mascot Match é uma plataforma de adoção de animais no modelo Tinder. Pela plataforma você escolhe dentre diversos animais disponibilizados pelas ONG's, assim você ganha um novo companheiro e a ONG ajuda mais animaiszinhos. A plataforma tem planos mensais também, pelos quais você consegue fazer compras pela plataforma, consegue descontos em petshops parceiras, frete grátis e até brindes!</h4>
+    				<h4 class="description"> O Mascot Match é uma plataforma de adoção de animais no modelo Tinder. Com o Mascot Match você escolhe dentre diversos animais disponibilizados por ONG's, assim você ganha um novo companheiro e a ONG ajuda mais animaiszinhos.</h4>
     			</div>
     		</div>
         <div class="row">
@@ -87,61 +87,27 @@
     </div>
     <!-- /ABOUT -->
 
-    <!-- PRICING -->
-    <div class="pricing-1 section-image" id="pricing-1" style="background-image: url('img/dog-cat.jpg')">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6 ml-auto mr-auto text-center">
-    				<h2 class="title">Escolha o melhor plano mensal para você</h2>
-    				<div class="section-space"></div>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-md-4 mt-auto mb-auto">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Gratuito</h6>
-    						<div class="icon icon-warning"> <i class="now-ui-icons emoticons_satisfied"></i>
-    						</div>
-    						<h3 class="card-title">Gratuito</h3>
-    						<a href="" class="btn btn-primary btn-round">Escolher</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="card card-pricing">
-    					<div class="card-body">
-    						<h6 class="category">Básico</h6>
-    						<div class="icon icon-primary"> <i class="now-ui-icons files_box"></i>
-    						</div>
-    						<h3 class="card-title">R$19<small>,90</small></h3>
-    						<ul>
-    							<li>Selo <a href="mascothelper.php" class="text-danger">MascotHelper</span></a></li>
-    							<li>Sem propagandas</li>
-                  <li>Compra pela plataforma</li>
-    						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="card card-pricing card-plain">
-    					<div class="card-body">
-    						<h6 class="category ">Intermediário</h6>
-    						<div class="icon icon-success"> <i class="now-ui-icons objects_diamond"></i>
-    						</div>
-    						<h3 class="card-title">R$49<small>,90</small></h3>
-    						<ul>
-    							<li>Descontos em compras nos parceiros</li>
-                  <li>Frete grátis</li>
-    							<li>Brindes</li>
-    						</ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+    <!-- PARCERIA -->
+    <div class="page-header header-filter" style="background-color: rgba(0,0,0,0.3);">
+      <div class="page-header-image" style="background-image: url('img/cats-company.jpg');"></div>
+      <div class="content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h1 class="title">Se torne um parceiro</h1>
+              <h4 class="description">
+                As ONG's cadastradas ganham pontos
+              </h4>
+              <br>
+              <div class="buttons">
+                <a href="registrar.php" class="btn btn-theme btn-lg mr-3">Se inscreva agora!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /PRICING -->
+    <!-- /PARCERIA -->
 
     <?php include "inc/footer.html"; ?>
 
