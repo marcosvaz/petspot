@@ -22,8 +22,8 @@
 
     <!-- FAQ -->
     <div class="col-md-8 ml-auto mr-auto">
-    	<h3 class="title">O que é o Mascot Match&trade;?</h3>
-    	<p>Bom, o Mascot Match&trade; é uma plataforma para adoção de animais baseada no modelo Tinder. A plataforma serve para o usuário ver os animais disponíveis e escolher algum para ser seu companheiro.
+    	<h3 class="title">O que é o Pet Stop?</h3>
+    	<p>Bom, o Pet Stop é uma plataforma para
     		<br></p>
     </div>
     <div class="col-md-8 ml-auto mr-auto">
@@ -37,7 +37,7 @@
     	</p> -->
     </div>
     <div class="col-md-8 ml-auto mr-auto">
-    	<h3 class="title">Sou uma pessoa física e desejo doar um animalzinho, como faço?</h3>
+    	<h3 class="title">Sou uma pessoa física e desejo doar um animal, como faço?</h3>
     	<p>Com a nossa plataforma, as ONG's estão começando a diminuir o superlotamento, tente entrar em contato com alguma de nossas parceiras e assim o animalzinho vem parar na nossa plataforma! Caso o tempo de espera seja longo, confira dicas nos blogs de adoção e saiba como ajudar o nosso amigo até ele encontrar um lar!
     		<br><br></p>
     	<!-- <p class="blockquote blockquote-primary">“And thank you for turning my personal jean jacket into a couture piece.”
