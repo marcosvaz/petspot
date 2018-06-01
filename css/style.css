@@ -7,6 +7,9 @@ body {
 .text-theme {
   color: #EE712B; }
 
+*[class*="btn-"] {
+  border-radius: 20px; }
+
 .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
   background-color: #DC4712; }
 

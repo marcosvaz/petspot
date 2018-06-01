@@ -11,11 +11,11 @@
             <div class="col-md-7 ml-auto mr-auto">
               <h1 class="title">Pet Stop</h1>
               <h4 class="description">
-                A parada obrigatória para ter facilidade e benefícios para seu animalzinho.
+                A parada obrigatória para ter facilidade e benefícios para seu animal de estimação.
               </h4>
               <br>
               <div class="buttons">
-                <a href="registrar.php" class="btn btn-theme btn-lg mr-3">Registre-se agora!</a>
+                <a href="registrar.php" class="btn btn-neutral btn-lg mr-3"><b>Registre-se agora</b> <i class="fa fa-chevron-right"></i></a>
               </div>
             </div>
           </div>
