@@ -1,27 +1,6 @@
 <?php include "inc/header.php"; ?>
 
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
-      <div class="container">
-        <div class="navbar-translate">
-          <a class="navbar-brand" href="index1.php"> Mascot Match </a>
-          <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-  					<span class="navbar-toggler-bar bar1"></span>
-  					<span class="navbar-toggler-bar bar2"></span>
-  					<span class="navbar-toggler-bar bar3"></span>
-  				</button>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end" data-nav-image="#">
-          <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link" href="loja.php">LOJA</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="faq.php">FAQ</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="registrar.php">REGISTRAR</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="login.php">LOGIN</a> </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- /MENU -->
+    <?php include "inc/menu.php"; ?>
 
     <!-- HEADER -->
     <div class="page-header header-filter">
@@ -30,9 +9,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Mascot Match</h1>
+              <h1 class="title">Pet Stop</h1>
               <h4 class="description">
-                Não compre. Dê um match, é de graça.
+                A parada obrigatória para ter facilidade e benefícios para seu animalzinho.
               </h4>
               <br>
               <div class="buttons">

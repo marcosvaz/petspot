@@ -2,7 +2,6 @@
   include "includes/erros.php";
   if(isset($_POST['subscribe'])){
     $email = strtolower($_POST['email']);
-
     if(!strstr($email, '@') || !strstr($email, '.com')){
       echo danger("Email inválido!");
     } else {
@@ -11,9 +10,13 @@
       $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
       $headers .= "From: contato@mascotmatch.com.br \r\n"; // remetente
       $headers .= "Return-Path: contato@mascotmatch.com.br \r\n"; // return-path
-      $envio = mail("marcosvazdeveloper@gmail.com", "Subscribe", "De: $email", $headers);
+      $envio = mail("marcosvazdeveloper@gmail.com", "Inscrição", "Nova Inscrição de: $email", $headers);
 
       if($envio){
+        // Escrita de CSV
+        $file = fopen("subscribes/subscribes.csv", "a+");
+        fwrite($file, $email . ";");
+        fclose($file);
         echo success("Inscrito com sucesso!");
       } else {
         echo danger("Houve algum erro! Tente novamente mais tarde.");
@@ -28,7 +31,7 @@
     <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="index.php"> Mascot Match </a>
+          <a class="navbar-brand" href="index.php"> <img src="img/petstop.png" width="48px" /> </a>
         </div>
       </div>
     </nav>

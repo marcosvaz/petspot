@@ -4,7 +4,7 @@
     <div class="content">
       <div class="row">
         <div class="col-md-3">
-          <h5><span class="text-theme">Mascot Match</span></h5>
+          <h5><span class="text-theme">Pet Stop</span></h5>
           <ul class="links-vertical">
             <li>
               <a href="#footer">CNPJ: </a>
@@ -35,7 +35,7 @@
               <a href="index1.php#como-funciona">Como funciona</a>
             </li>
             <li>
-              <a href="mascothelper.php">MascotHelper</a>
+              <a href="pethelper.php">PetHelper</a>
             </li>
             <li>
               <a href="faq.php">FAQ</a>
@@ -75,7 +75,7 @@
         if(new Date().getFullYear() > 2018){
           document.write(" - " + new Date().getFullYear());
         }
-      </script> <a href="index1.php">MascotMatch</a>.</div>
+      </script> <a href="index1.php">Pet Stop</a>.</div>
   </div>
 </footer>
 <!-- /FOOTER -->

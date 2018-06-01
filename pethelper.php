@@ -1,26 +1,6 @@
 <?php include "inc/header.php"; ?>
 
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
-      <div class="container">
-        <div class="navbar-translate">
-          <a class="navbar-brand" href="index1.php"> Mascot Match </a>
-          <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-    					<span class="navbar-toggler-bar bar1"></span>
-    					<span class="navbar-toggler-bar bar2"></span>
-    					<span class="navbar-toggler-bar bar3"></span>
-    				</button>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end" data-nav-image="#">
-          <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link" href="faq.php">FAQ</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="registrar.php">REGISTRAR</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="login.php">LOGIN</a> </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- /MENU -->
+    <?php include "inc/menu.php"; ?>
 
     <!-- HEADER -->
     <div class="page-header header-filter">
@@ -29,7 +9,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">MascotHelper</h1>
+              <h1 class="title">PetHelper</h1>
               <h4 class="description">
                 Nossos animais ganham uma vida melhor, e você também ganha com isso!
               </h4>
@@ -50,7 +30,7 @@
     		<div class="row">
     			<div class="col-md-8 ml-auto mr-auto">
     				<h2 class="title">Como funciona</h2>
-    				<h4 class="description">O <span class="text-danger">MascotHelper</span> é um selo que você ganha, por participar de um de nossos planos, esse selo demonstra que você é um ajudante dos animais e das ONG's, pois com o valor dos planos, nós doamos uma parte para as ONG's para judar a cuidar de outros animais.</h4>
+    				<h4 class="description">O <span class="text-danger">PetHelper</span> é um selo que você ganha, por participar de um de nossos planos, esse selo demonstra que você é um ajudante dos animais e das ONG's, pois com o valor dos planos, nós doamos uma parte para as ONG's para judar a cuidar de outros animais.</h4>
     			</div>
     		</div>
     		<div class="row">
@@ -58,7 +38,7 @@
     				<div class="info info-hover">
     					<div class="icon icon-danger"> <i class="fa fa-crown"></i>
     					</div>
-    					<h4 class="info-title">Selo MascotHelper</h4>
+    					<h4 class="info-title">Selo PetHelper</h4>
     				</div>
     			</div>
     		</div>
@@ -71,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto text-center">
-            <h2 class="title">Os planos abaixo envolvem o selo MascotHelper</h2>
+            <h2 class="title">Os planos abaixo envolvem o selo PetHelper</h2>
             <div class="section-space"></div>
           </div>
         </div>
@@ -84,7 +64,7 @@
                 </div>
                 <h3 class="card-title">R$19<small>,90</small></h3>
                 <ul>
-                  <li>Selo <a class="text-danger" href="mascothelper.php">MascotHelper</a></li>
+                  <li>Selo <a class="text-danger" href="pethelper.php">PetHelper</a></li>
                 </ul> <a href="" class="btn btn-primary btn-round">Escolher</a>
               </div>
             </div>
