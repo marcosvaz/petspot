@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Now-ui-kit-pro - v1.1.0
+ * Now-ui-kit-pro - v1.2.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/now-ui-kit-pro
@@ -65,6 +65,12 @@ $(document).ready(function(){
         $(window).on('scroll', nowuiKit.checkScrollForTransparentNavbar)
     }
 
+    $('.form-control').on("focus", function(){
+        $(this).parent('.input-group').addClass("input-group-focus");
+    }).on("blur", function(){
+        $(this).parent(".input-group").removeClass("input-group-focus");
+    });
+
     // Activate bootstrapSwitch
     $('.bootstrap-switch').each(function(){
         $this = $(this);
@@ -102,7 +108,9 @@ $(document).ready(function(){
                 close: 'fa fa-remove'
             }
         });
+    }
 
+    if($(".datepicker").length != 0){
         $('.datepicker').datetimepicker({
            format: 'MM/DD/YYYY',
            icons: {
@@ -117,7 +125,9 @@ $(document).ready(function(){
                close: 'fa fa-remove'
            }
         });
+    }
 
+    if($(".timepicker").length != 0){
         $('.timepicker').datetimepicker({
 //          format: 'H:mm',    // use this format if you want the 24hours timepicker
            format: 'h:mm A',    //use this format if you want the 12hours timpiecker with AM/PM toggle
@@ -239,7 +249,6 @@ $(document).ready(function(){
           url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
         });
     }
-
 });
 
 $(window).on('resize', function(){
@@ -409,3 +418,13 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-46172202-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();

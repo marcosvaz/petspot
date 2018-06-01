@@ -8,8 +8,11 @@ body {
 }
 
 // Tudo que tiver "-theme"
-*[class*="-theme"] {
+*[class*="-theme"]:not(.text-theme) {
   background-color: $theme-color;
+}
+.text-theme {
+  color: $theme-color;
 }
 
 // Botões

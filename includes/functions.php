@@ -104,9 +104,9 @@
         $nome = explode( " ", $db_nome );
         return $nome[0];
       } elseif ((isset($db_nome) && isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
-        header('Location: index.php');
+        header('Location: index1.php');
       } else {
-        header('Location: index.php');
+        header('Location: index1.php');
       }
     }
   }
@@ -128,9 +128,9 @@
        if ((isset($db_email) && isset($db_senha)) && ($email == $db_email && $senha == $db_senha)) {
         return $db_email;
       } elseif ((isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
-        header('Location: index.php');
+        header('Location: index1.php');
       } else {
-        header('Location: index.php');
+        header('Location: index1.php');
       }
     }
   }
@@ -154,9 +154,9 @@
        if ((isset($db_foto) && isset($db_email) && isset($db_senha)) && ($email == $db_email && $senha == $db_senha)) {
         return $db_foto;
       } elseif ((isset($db_foto) && isset($db_email) && isset($db_senha)) && ($email != $db_email || $senha != $db_senha)) {
-        header('Location: index.php');
+        header('Location: index1.php');
       } else {
-        header('Location: index.php');
+        header('Location: index1.php');
       }
     }
   }

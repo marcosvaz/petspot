@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-  <meta charset="utf-8" />
-  <link rel="icon" type="icon" href="img/favicon.ico">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <title>Mascot Match</title>
-  <meta http-equiv='content-language' content='pt-br'>
-  <meta name='author' content='Marcos Vaz' />
-  <meta name='copyright' content='© 2018 Mascot Match' />
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name='rating' content='general' />
-  <meta name='robots' content='noimageindex' />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/now-ui-kit.css">
-  <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+<?php include "inc/header.php"; ?>
 
     <!-- MENU -->
     <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="index.php"> Mascot Match </a>
+          <a class="navbar-brand" href="index1.php"> Mascot Match </a>
           <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
     					<span class="navbar-toggler-bar bar1"></span>
     					<span class="navbar-toggler-bar bar2"></span>
@@ -115,11 +94,6 @@
     </div>
     <!-- /PRICING -->
 
-    <?php include "inc/footer.html"; ?>
+    <?php include "inc/footer.php"; ?>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="core/bootstrap.min.js"></script>
-    <script src="core/now-ui-kit.js"></script>
-  </body>
-</html>
+<?php include "inc/js.html"; ?>

@@ -38,23 +38,21 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Registre-se aqui</h1>
+              <h1 class="title">Inscreva-se aqui</h1>
               <h4 class="description">
                 <div class="col-sm-8 ml-auto mr-auto form-group">
                   <form action="registrar.php" method="post">
                   <br>
-                  <input class="form-control" type="text" name="nome" placeholder="Nome completo" style="background: transparent;" required>
+                  <input class="form-control" type="text" name="nome" placeholder="Nome da ONG" style="background: transparent;" required>
                   <br>
-                	<input class="form-control date" type="text" name="data" placeholder="Data de Nascimento" style="background: transparent;" required>
+                  <input class="form-control" type="number" name="cnpj" placeholder="CNPJ" style="background: transparent;" required>
                   <br>
-                  <input class="form-control" type="email" name="email" placeholder="Email" style="background: transparent;" required>
-                  <br>
-                  <input class="form-control" type="password" name="senha" placeholder="Senha" style="background: transparent;" required>
+                  <input class="form-control" type="email" name="email" placeholder="Email de Contato" style="background: transparent;" required>
                 </div>
               </h4>
               <br>
               <div class="buttons">
-                <input type="submit" class="btn btn-theme btn-lg" name="registrar" value="Registrar">
+                <input type="submit" class="btn btn-theme btn-lg" name="inscrever" value="Inscrever">
                 </form>
               </div>
             </div>

@@ -1,19 +1,16 @@
 <!-- FOOTER -->
-<footer class="footer footer-white footer-big">
+<footer class="footer footer-white footer-big" id="footer">
   <div class="container">
     <div class="content">
       <div class="row">
         <div class="col-md-3">
-          <h5>Social</h5>
+          <h5><span class="text-theme">Mascot Match</span></h5>
           <ul class="links-vertical">
             <li>
-              <a href="mascotmatch.php">Facebook</a>
+              <a href="#footer">CNPJ: </a>
             </li>
             <li>
-              <a href="mascotmatch.php">Twitter</a>
-            </li>
-            <li>
-              <a href="mascotmatch.php">Instagram</a>
+              <a href="#footer">Telefone: </a>
             </li>
           </ul>
         </div>
@@ -21,7 +18,7 @@
           <h5>Plataforma</h5>
           <ul class="links-vertical">
             <li>
-              <a href="index.php">Página Inicial</a>
+              <a href="index1.php">Página Inicial</a>
             </li>
             <li>
               <a href="registrar.php">Registre-se</a>
@@ -35,7 +32,7 @@
           <h5>Sobre</h5>
           <ul class="links-vertical">
             <li>
-              <a href="index.php#como-funciona">Como funciona</a>
+              <a href="index1.php#como-funciona">Como funciona</a>
             </li>
             <li>
               <a href="mascothelper.php">MascotHelper</a>
@@ -78,7 +75,7 @@
         if(new Date().getFullYear() > 2018){
           document.write(" - " + new Date().getFullYear());
         }
-      </script> <a href="index.php">MascotMatch</a>.</div>
+      </script> <a href="index1.php">MascotMatch</a>.</div>
   </div>
 </footer>
 <!-- /FOOTER -->

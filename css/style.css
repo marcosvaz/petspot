@@ -1,8 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
-*[class*="-theme"] {
+*[class*="-theme"]:not(.text-theme) {
   background-color: #EE712B; }
+
+.text-theme {
+  color: #EE712B; }
 
 .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
   background-color: #DC4712; }

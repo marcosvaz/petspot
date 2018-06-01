@@ -1,1 +1,14 @@
+# Página 404
 ErrorDocument 404 /mascotmatch/404.php
+
+# Erros
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_flag  log_errors onn
+php_value error_log  php_errors.log
+<Files php_errors.log>
+  Order allow,deny
+  Deny from all
+  Satisfy All
+</Files>
