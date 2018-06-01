@@ -31,20 +31,20 @@
     <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="index.php"> <img src="img/petstop.png" width="48px" /> </a>
+          <a class="navbar-brand" href="index.php"> <img src="img/petstop-white.png" width="48px" /> Pet Stop </a>
         </div>
       </div>
     </nav>
     <!-- /MENU -->
 
     <!-- HEADER -->
-    <div class="page-header header-filter" style="background-color: rgba(0,0,0,0.4);">
+    <div class="page-header header-filter" style="background: rgba(0, 0, 0, 0.3);">
       <div class="page-header-image" style="background-image: url('img/dog-sad.jpg');"></div>
       <div class="content-center">
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Mascot Match</h1>
+              <h1 class="title">Pet Stop</h1>
               <h4 class="description">
                 A nossa plataforma ainda está em desenvolvimento, se você desejar saber quando estiver pronta, digite seu email abaixo e nós te avisaremos!
               </h4>

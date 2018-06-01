@@ -11,7 +11,6 @@
     </div>
     <div class="collapse navbar-collapse justify-content-end" data-nav-image="#">
       <ul class="navbar-nav">
-        <li class="nav-item"> <a class="nav-link" href="loja.php">LOJA</a> </li>
         <li class="nav-item"> <a class="nav-link" href="faq.php">FAQ</a> </li>
         <li class="nav-item"> <a class="nav-link" href="registrar.php">REGISTRAR</a> </li>
         <li class="nav-item"> <a class="nav-link" href="login.php">LOGIN</a> </li>
