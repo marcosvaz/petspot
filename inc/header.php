@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
   <meta charset="utf-8" />
-  <link rel="icon" type="icon" href="img/petstop.png">
+  <link rel="icon" type="icon" href="img/petstop-logo.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <title>Pet Stop <?php if(isset($title)){ echo "| " . $title; } ?></title>

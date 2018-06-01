@@ -30,7 +30,7 @@
     		<div class="row">
     			<div class="col-md-8 ml-auto mr-auto">
     				<h2 class="title">Como funciona a plataforma</h2>
-    				<h4 class="description"> A Pet Stop é uma plataforma onde você pode prestar serviços relacionados a pets para outras pessoas, solicitar serviços, comprar coisas para seus animais pela Marketplace, adotar um novo companheiro, doar, ou colocar um anúncio de perdido para ver se alguém encontra.</h4>
+    				<h4 class="description"> A Pet Stop é uma plataforma onde você pode requisitar ou prestar serviços relacionados a pets para outras pessoas, comprar coisas para seus animais pela Marketplace, adotar um novo companheiro, doar, ou colocar um anúncio de perdido para ver se alguém encontra.</h4>
     			</div>
     		</div>
         <div class="row">
