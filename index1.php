@@ -9,7 +9,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 ml-auto mr-auto">
-              <h1 class="title">Pet Spot?</h1>
+              <h1 class="title">Pet Spot</h1>
               <h4 class="description">
                 A parada obrigatória para ter facilidade e benefícios para seu animal de estimação.
               </h4>
