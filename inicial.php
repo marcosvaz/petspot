@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-lg bg-theme fixed-top">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="inicial.php"> Pet Stop </a>
+          <a class="navbar-brand" href="inicial.php"> Pet Spot </a>
           <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
   					<span class="navbar-toggler-bar bar1"></span>
   					<span class="navbar-toggler-bar bar2"></span>

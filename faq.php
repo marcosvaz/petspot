@@ -22,8 +22,8 @@
 
     <!-- FAQ -->
     <div class="col-md-8 ml-auto mr-auto">
-    	<h3 class="title">O que é o Pet Stop?</h3>
-    	<p>Bom, o Pet Stop é uma plataforma para facilitar a vida de nossos usuários, e dar benefícios. Pela plataforma é possível realizar ou solicitar serviços relacionados a pets, fazer compras no Marketplace, adotar, doar ou criar um anúncio de animal perdido.
+    	<h3 class="title">O que é o Pet Spot?</h3>
+    	<p>Bom, o Pet Spot é uma plataforma para facilitar a vida de nossos usuários, e dar benefícios. Pela plataforma é possível realizar ou solicitar serviços relacionados a pets, fazer compras no Marketplace, adotar, doar ou criar um anúncio de animal perdido.
   		<br></p>
     </div>
     <div class="col-md-8 ml-auto mr-auto">

@@ -44,7 +44,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 ml-auto mr-auto">
-              <h1 class="title">Pet Stop</h1>
+              <h1 class="title">Pet Spot</h1>
               <h4 class="description">
                 A nossa plataforma ainda está em desenvolvimento, se você desejar saber quando estiver pronta, digite seu email abaixo e nós te avisaremos!
               </h4>

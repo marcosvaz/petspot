@@ -1,5 +1,5 @@
 # Página 404
-ErrorDocument 404 /mascotmatch/404.php
+ErrorDocument 404 /petstop/404.php
 
 # Erros
 php_flag display_startup_errors off

@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
   <div class="container">
     <div class="navbar-translate">
-      <a class="navbar-brand" href="index1.php"> <img src="img/petstop-white.png" width="128px" /> </a>
+      <a class="navbar-brand" href="index1.php"> <img src="img/logo-text-white.png" width="100px" /> </a>
       <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-bar bar1"></span>
         <span class="navbar-toggler-bar bar2"></span>
