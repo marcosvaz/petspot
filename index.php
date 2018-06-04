@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg bg-theme fixed-top navbar-transparent" color-on-scroll="300">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="index.php"> <img src="img/petstop-white.png" width="116px" /> </a>
+          <a class="navbar-brand" href="index.php"> <img src="img/logo-text-white.png" width="116px" /> </a>
         </div>
       </div>
     </nav>
