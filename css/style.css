@@ -13,6 +13,12 @@ body {
 .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
   background-color: #DC4712; }
 
+.btn-neutral {
+  font-weight: bolder; }
+  .btn-neutral:hover {
+    background-color: #EE712B;
+    color: #fff; }
+
 a {
   color: #EE712B; }
   a:hover {

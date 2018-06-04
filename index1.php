@@ -15,7 +15,7 @@
               </h4>
               <br>
               <div class="buttons">
-                <a href="registrar.php" class="btn btn-neutral btn-lg mr-3"><b>Registre-se agora</b> <i class="fa fa-chevron-right"></i></a>
+                <a href="registrar.php" class="btn btn-neutral btn-lg mr-3">Registre-se agora <i class="fa fa-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@
               </h4>
               <br>
               <div class="buttons">
-                <a href="parceria.php" class="btn btn-theme btn-lg mr-3">Descubra!</a>
+                <a href="parceria.php" class="btn btn-neutral btn-lg mr-3">Descubra!</a>
               </div>
             </div>
           </div>

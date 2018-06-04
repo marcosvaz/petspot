@@ -22,6 +22,13 @@ body {
 .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme:active:focus {
   background-color: $theme-color-hover;
 }
+.btn-neutral {
+  font-weight: bolder;
+  &:hover {
+    background-color: $theme-color;
+    color: #fff;
+  }
+}
 
 // Links
 a {
